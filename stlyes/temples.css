@@ -1,0 +1,152 @@
+/* <uniquifier>: Use a unique and descriptive class nam <weight>: Use a value from 300 to 800 */
+* {
+    font-family: "Open Sans", serif;
+}
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+header{
+        max-width: auto;
+        margin: 1rem auto;
+        border: 2px black solid;
+        padding: 1rem;
+        background-color: rgba(91, 160, 202, 0.781);  
+    }
+
+h1{
+    text-align: center;
+}
+
+#menu {
+    display: blocks;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding:  .5rem .75rem;
+    background-color: lightgray;
+    color: #000;
+}
+
+#menu::before{
+    content: "≡";
+}
+
+nav{
+    background-color: lightgrey;
+}
+
+.navigation{
+    list-style: none;
+    margin: 0 auto;
+    max-width: 1800px;
+}
+
+.navigation li{
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: .75rem;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
+}
+
+.navigation a:hover, navigation a:active {
+	color: white;
+	background-color: black;
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: 'X';
+}
+
+
+nav a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+    font-size: larger;
+}
+
+nav a:hover{
+    text-decoration: overline double;
+    background-color: black;
+    color: white;
+
+
+}
+
+.hamburger{
+    display: block;
+}
+
+main{
+    max-width: auto;
+    margin: auto 0;
+}
+
+section {
+    margin: 1rem auto;
+    max-width: 800px; 
+    padding: .5rem;
+}
+
+h2{
+    text-align: center;
+    border-bottom: #000 solid;
+    font-size: 2rem;
+}
+
+.temple_container{
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 25px;
+    place-items: center;
+
+}
+
+figure{
+    margin: .5rem;
+    font-family: "Merriweather", 'Times New Roman', Times, serif;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+    
+
+}
+
+footer{
+    max-width: auto;
+    margin: 1rem auto;
+    border: 1px rgb(3, 53, 7) solid;
+    padding: 1rem;
+    background-color: rgba(91, 160, 202, 0.781);  
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500;
+}
+
+
+/* section {margin: 1rem auto; max-width: 800px; padding: .5rem;}
+.temple_container {display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); grid-gap: 25px;place-items: center;}
+
+figure {background-color:#fff;}
+img { width: 100%; height: auto; margin: .5rem;}
+figcaption {font-size: smaller;} */
