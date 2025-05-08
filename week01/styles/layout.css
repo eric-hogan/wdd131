@@ -1,7 +1,7 @@
 body{
     display: grid;
     height: 100px;
-    grid-template: 1fr auto;
+    grid-template-rows: 1fr auto;
 }
 
 
