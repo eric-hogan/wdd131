@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WDD 131 - Dynmaic Web Fundementals - Eric Hogan</title>
+    <meta name="Author" content="Eric Hogan">
+    <meta name="Description" content="Eric Hogan's landing page for WDD 131 - Dynmaic Web Fundementals with links to personal accounts for LinkedIn, Canvas, a favorite scripture, and the Final Project for the course">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Open+Sans:ital,wdth,wght@0,87.5,300;1,87.5,300&display=swap" rel="stylesheet">
+
+    
+
 </head>
 <body>
+    <header>
+        <h1>WDD 131: Dynmaic Web Fundementals - Eric Hogan</h1>
+        <nav>
+            <a href="www.linkedin.com/in/eric-a-hogan">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/1?lang=eng&id=p3-p4#p3">Favorite Scripture</a>
+            <a href="finalproject">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="picture of Eric and his wife">
+            <p> My name is Eric Hogan. I was born in Whitefish, Montana and currently live in Rexburg, Idaho wif my wife Breanna. Currently I work in a call center handling the billing for a pest control company. One day my dream is to work as a software developer and to assist my wife with building a sewing buisness. Some of my favorite things to do are going into the woods and camp and to play disc golf (at seperate times of course).</p>
+        </section>
+        
+        <section class="card">
+            <h2>Developer Resources</h2>
+                <ul>
+                    <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/">Mozilla Developer tools</a></li>
+                    <li><a href="https://stackabuse.com/">Stack Abuse</a></li>
+                </ul>
+        </section>
+    </main>
+
+    <footer> 
+        <p> &copy; <span  id="currentyear"></span> Eric Hogan USA</p>
+
+        <p> Last modified <span id="last-modified"></span></p>
+        </footer>
     
 </body>
 </html>
