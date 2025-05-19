@@ -69,11 +69,10 @@ main{
     
 }
 
-.card img{
+.profile{
     display: block;
-    margin: auto;
-    text-align: center;
-    width: 400px;
+    margin: 0 auto;
+    width: 350px;
     height: auto;
     
 
@@ -81,6 +80,13 @@ main{
 
 .card p{
     padding-left: 5px;
+    padding: 5px;
+}
+
+.location{
+    width: 300px;
+    position: relative;
+    left: 10px;
 }
 
 .card li{
