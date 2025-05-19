@@ -38,7 +38,7 @@ nav a{
     
 }
 
-nav :hover{
+nav a:hover{
     background-color: white;
     color: black;
     
@@ -49,7 +49,7 @@ main{
     grid-template: auto auto/ 2fr 1fr;
     column-gap: 10px;
     place-self: center;
-    width: 1000px;
+    width: 800px;
     padding-top: 10px;
     justify-content: space-between;
     
