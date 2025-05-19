@@ -49,7 +49,7 @@ main{
     grid-template: auto auto/ 2fr 1fr;
     column-gap: 10px;
     place-self: center;
-    width: 800px;
+    max-width: 800px;
     padding-top: 10px;
     justify-content: space-between;
     
