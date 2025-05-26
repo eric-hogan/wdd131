@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Zealand</title>
+    <meta name="author" content="Eric Hogan">
+    <meta name="description" content="A page about the country of New Zealand created for WDD 131 - Dynamic Web Fundementals.">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+
+    <!-- Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@500&family=Oregano&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>New Zealand</h1>
+    </header>
+
+    <main>
+
+        <!--Top of the page and Hero images-->
+        
+        <div class="hero">
+            <picture>
+                <source media="(min-width:1000px)" srcset="images/nz-hero-large.webp">
+                <source media="(min-width:500px)" srcset="images/nz-hero-medium.webp">
+                <img src="images/nz-hero-small.webp" alt="A picture of a waterfall in New Zealand" width=500 height=250>
+            </picture>
+        </div>
+
+        <!--Information about the country-->
+        <section class="data-section">
+            <div class="data">
+                <h2>Data</h2>        
+                <p>Area:</p>
+                <p>103,483 mi² </p>
+                <p>Population: 5.223 million (2023)</p>
+                <p>Capital: Wellington</p>
+                <p>Language: Māori, English, New Zealand Sign Language</p>
+                <p>Currency: New Zealand Dollar</p>
+                <p>Time Zone: GMT+12:45</p>
+                <p>Calling Code: +64</p>
+                <p>Internet TLD: .nz</p>
+
+            </div>
+        </section>
+
+        <!--Forcast-->
+        <section class="weather-section">
+            <div class="weather">
+                <h2>Weather</h2>
+                <figure>
+                    <img src="images/sunny.svg" alt="Sunny weather">
+                </figure>
+                <p>Temperature: 20℃</p>
+                <p>Conditions: Sunny</p>
+                <p>Wind 5km/h</p>
+                <p>Windchill: <span id="windChill"></span>℃</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> - Eric Hogan - Idaho, USA </p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+    </footer>
+</body>
+</html>
