@@ -1,0 +1,43 @@
+:root{
+    --zebra: hsl(0, 0%, 93%, 1);
+}
+
+*{
+    margin: auto;
+}
+
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+    width: 400px;
+}
+
+thead, .blank{
+    background-color: black;
+    color: white;
+}
+
+thead{
+    border-bottom: 1px solid black;
+}
+.plan{
+    background-color: gray;
+    color: white;
+}
+
+caption{
+    caption-side: bottom;
+    padding: 5px;
+}
+
+
+th, td{
+  
+    border: 1px solid rgba(0, 0, 0, 0.192);
+}
+
+
+tbody tr:nth-child(even){
+    background-color: var(--zebra);
+}
