@@ -1,0 +1,33 @@
+@media screen and (min-width: 700px){
+
+    
+
+    #menu{
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+        flex: 1 1 100%;
+    }
+
+    .navigation a{
+        display: block;
+    }
+
+    .photos{
+        /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 50px; */
+
+        grid-template: auto / 1fr 1fr 1fr;
+        grid-gap: 2rem;
+    }
+
+    
+
+
+
+    
+
+}
+

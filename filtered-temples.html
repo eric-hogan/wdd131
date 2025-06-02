@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="author" content="Eric Hogan">
+    <meta name="description" content="A page of favorite temples.">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+
+    <!-- fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Spectral:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button id="menu" aria-label="menu"></button>
+        <nav class="navigation">
+            <a id="home" href="#">Home</a>
+            <a id="old" href="#">Old</a>
+            <a id="new" href="#">New</a>
+            <a id="large" href="#">Large</a>
+            <a id="small" href="#">Small</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Temple list</h2>
+        <div id="photos" class="photos"></div> 
+    </main>
+    <footer>
+                <p> &copy; <span  id="currentyear"></span> Eric Hogan USA</p>
+
+        <p> Last modified <span id="last-modified"></span></p>
+    </footer>
+</body>
+</html>
