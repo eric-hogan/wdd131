@@ -9,6 +9,7 @@ chaptersArray.forEach(chapter => {
 });
 
 
+
 button.addEventListener ('click', function() {
     if (input.value != ''){ 
         displayList(input.value)
