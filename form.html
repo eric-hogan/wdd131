@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review</title>
+    <meta name="author" content="Eric Hogan">
+    <meta name="description" content="a form that is used for a product review">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+    <main>
+        
+        <form method="get" class="reviewForm">
+
+            <fieldset>
+                <legend>Product Name</legend>
+                <select name="productName" id="productName" required>
+                    <label><option selected disabled>Select a product</option></label>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Product Rating</legend>
+                <div class="rating">
+                    <label>&star;<input type="radio" name="stars" id="oneStar" required></label>
+                    <label>&star;&star;<input type="radio" name="stars" id="twoStar" required></label>
+                    <label>&star;&star;&star;<input type="radio" name="stars" id="threeStr" required></label>
+                    <label>&star;&star;&star;&star;<input type="radio" name="stars" id="fourStar" required></label>
+                    <label>&star;&star;&star;&star;&star;<input type="radio" name="stars" id="fiveStar" required></label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Date Installed</legend>
+                <div class="dateInstalled">
+                    <label>Date of Installation <input type="date" name="installDate" id="installDate" required></label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Special features</legend>
+                <div class="features">
+                    <label>Feature One<input type="checkbox" name="featureOne" id="featureOne" value="yes"></label>
+                    <label>Feature Two<input type="checkbox" name="featureTwo" id="featureTwo" value="yes"></label>
+                    <label>Feature Three<input type="checkbox" name="featureThree" id="featureThree" value="yes"></label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Written Review</legend>
+                <textarea name="writtenReview" id="writtenReview"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Name</legend>
+                <input type="text" name="customerName" >
+            </fieldset>
+
+            <input class="submitBtn" type="submit" value="Post Your Review">
+            
+        </form>
+    </main>
+
+    <footer>
+        <p> &copy; <span  id="currentyear"></span> Eric Hogan USA</p>
+
+        <p> Last modified <span id="last-modified"></span></p>
+        </footer>
+    
+    </footer>
+</body>
+</html>

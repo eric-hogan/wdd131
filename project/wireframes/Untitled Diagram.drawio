@@ -1,0 +1,78 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9" pages="2">
+  <diagram name="Page-1" id="ol6HRNd_atzQ53ovowDS">
+    <mxGraphModel dx="1106" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XBgcEPCtmGV6WvNMzzcn-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5" width="840" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XBgcEPCtmGV6WvNMzzcn-2" value="&lt;h1&gt;Disc Golf Fun&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="40" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBgcEPCtmGV6WvNMzzcn-3" value="Logo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="25" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XBgcEPCtmGV6WvNMzzcn-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="110" width="830" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XBgcEPCtmGV6WvNMzzcn-4" value="Nav 3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="125" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBgcEPCtmGV6WvNMzzcn-7" value="Nav 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="125" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBgcEPCtmGV6WvNMzzcn-8" value="Nav 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="125" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBgcEPCtmGV6WvNMzzcn-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="460" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="XBgcEPCtmGV6WvNMzzcn-13" value="Content&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="395" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBgcEPCtmGV6WvNMzzcn-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="710" width="830" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XBgcEPCtmGV6WvNMzzcn-15" value="Footer content" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="338" y="725" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBgcEPCtmGV6WvNMzzcn-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="220" width="270" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="XBgcEPCtmGV6WvNMzzcn-21" value="Form" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="655" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9zgljUmFqLs7iyP7Bx0g" name="Page-2">
+    <mxGraphModel dx="1106" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g6N6zaMoEuGWMYeJMENG-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="500" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="g6N6zaMoEuGWMYeJMENG-2" value="Content" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="410" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="g6N6zaMoEuGWMYeJMENG-3" value="&lt;h1&gt;Disc Golf Fun&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="60" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6N6zaMoEuGWMYeJMENG-4" value="Logo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="60" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6N6zaMoEuGWMYeJMENG-5" value="Ham&lt;div&gt;Button&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="620" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6N6zaMoEuGWMYeJMENG-6" value="Form" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="460" width="410" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="g6N6zaMoEuGWMYeJMENG-7" value="Footer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="630" width="410" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
