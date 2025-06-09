@@ -1,7 +1,7 @@
-const button = document.querySelector('submitBtn')
-const productName = document.querySelector('productName')
-const rating = document.querySelector('rating')
-const installDate = document.querySelector('dateInstalled')
+const button = document.querySelector('#submitBtn')
+const productName = document.querySelector('#productName')
+const rating = document.querySelector('#rating')
+const installDate = document.querySelector('#dateInstalled')
 
 
 
@@ -36,20 +36,27 @@ const products = [
   }
 ];
 
+const productList = document.querySelector("#productName")
 
-products.forEach(product => 
-    {const item = document.createElement('option')
+function populatedList(){
+  products.forEach(product => 
+    {let option = document.createElement("option");
+      option.value = product.id;
+      option.textContent = product.name;
+      productList.appendChild(option);
+    })};
 
-    })
+
+populatedList()
 
 
 button.addEventListener('click', function() {
     if (productName.value !== '' && rating.value !== '' && installDate.value !== '')
-        reviewcount();
+       {reviewcount()};
 });
 
 function reviewcount(){
     let numReviews = localStorage.getItem('numReviews');
-    numReviews = JSON.parse(numReviews) + 1;
+    numReviews = numReviews ? JSON.parse(numReviews) + 1: 1;
     localStorage.setItem('numReviews', JSON.stringify(numReviews));
 }

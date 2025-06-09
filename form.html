@@ -22,14 +22,15 @@
 
             <fieldset>
                 <legend>Product Name</legend>
+                <label for="productName">Select a product</label>
                 <select name="productName" id="productName" required>
-                    <label><option selected disabled>Select a product</option></label>
+                    <option value="" selected disabled>Select a product</option>
                 </select>
             </fieldset>
 
             <fieldset>
                 <legend>Product Rating</legend>
-                <div class="rating">
+                <div id="rating">
                     <label>&star;<input type="radio" name="stars" id="oneStar" required></label>
                     <label>&star;&star;<input type="radio" name="stars" id="twoStar" required></label>
                     <label>&star;&star;&star;<input type="radio" name="stars" id="threeStr" required></label>
@@ -40,7 +41,7 @@
 
             <fieldset>
                 <legend>Date Installed</legend>
-                <div class="dateInstalled">
+                <div id="dateInstalled">
                     <label>Date of Installation <input type="date" name="installDate" id="installDate" required></label>
                 </div>
             </fieldset>
@@ -64,7 +65,7 @@
                 <input type="text" name="customerName" >
             </fieldset>
 
-            <input class="submitBtn" type="submit" value="Post Your Review">
+            <input id="submitBtn" type="submit" value="Post Your Review">
             
         </form>
     </main>
@@ -73,7 +74,6 @@
         <p> &copy; <span  id="currentyear"></span> Eric Hogan USA</p>
 
         <p> Last modified <span id="last-modified"></span></p>
-        </footer>
     
     </footer>
 </body>
