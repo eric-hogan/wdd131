@@ -7,6 +7,12 @@
 }
 
 
+*{
+    font-family: "Ancizar Sans", sans-serif;
+    font-weight: 300;
+}
+
+
 /*-------Header------*/
 
 header{
