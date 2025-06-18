@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disc Golf Fun</title>
+    <meta name="author" content="Eric Hogan">
+    <meta name="description" content="A website about disc golf">
+
+    <!--FONTS-->
+    <!--Heading font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <!--BODY FONT-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <!--STYLING-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <!--Javascript-->
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/project.js" defer></script>
+
+
+</head>
+<body>
+    <header>
+       <img src="images/logo.png" alt="website logo" width="200"> 
+        <h1>Disc Golf Fun</h1>
+    </header>
+
+    <main>
+        <nav class="navigation">
+            <a href="index.html" >Home</a>
+            <a href="rules.html">Rules</a>
+            <a href="discs.html">Disc Numbers and Types</a>
+        </nav>
+
+        <div class="hero">
+           <picture>
+                <source media="(min-width: 1500px)" srcset="images/heroLarge.webp">
+                <source media="(min-width: 500px)" srcset="images/heroMedium.webp">
+                <img src="images/heroSmall.webp" alt="Picture of a disc in a basket" width=499>
+            </picture>
+         </div>
+
+
+        <div class="about_form_layout">
+                <div class="about">
+                <h2>What is Disc Golf?</h2>
+                <p>Welcome to the world of disc golf! A sport that blends skill, strategy, and outdoor adventure, disc golf is a thrilling game played much like traditional golf—but with flying discs instead of clubs and balls. The goal? To complete a course by throwing a disc into a metal basket in as few throws as possible.</p>
+                
+                <p>Disc golf has exploded in popularity in recent years, with thousands of courses worldwide and a passionate community of players. Whether you're a casual player looking for a fun afternoon outdoors or a competitive athlete honing your skills, disc golf offers something for everyone. With various disc types—drivers, midranges, and putters—players learn to shape shots, navigate obstacles, and fine-tune their precision.</p>
+                
+                
+                  <img loading="lazy" src="images/driving1.webp" alt="A mand at a tee box driving a disc">
+                
+                <p>Best of all, many courses are free to play, making disc golf one of the most accessible and affordable sports out there. So grab a disc, step up to the tee, and experience the joy of the flight</p>
+
+
+            </div>
+        
+
+            
+            <form class="newsletter" action="thanks.html">
+                <h2>Sign up for our newsletter!</h2>
+                <fieldset>
+                    <legend>Name</legend>
+                    <label for="firstName"><input type="text" name="firstName" id="firstName" placeholder="Name" required></label>
+                    <label for="lastName"><input type="text" name="lastName" id="lastName" placeholder="Last" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Email</legend>
+                    <label for="email"><input type="email" name="email" id="email" placeholder="Email" required></label>
+                </fieldset>
+
+                <input type="submit" value="Register">
+            </form>
+        </div>
+
+
+    </main>
+
+    <footer> 
+        <p> &copy; <span  id="currentyear"></span> Eric Hogan USA</p>
+        <p> Last modified <span id="last-modified"></span></p>
+    </footer>
+    
+</body>
+</html>

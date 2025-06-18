@@ -1,0 +1,22 @@
+:root{
+    --primary: #5cff97;
+    --accent: #0a210f;
+    --background-2: #14591d;
+    --background-1: #acd2ed;
+    --gentext:rgb(8, 17, 24);
+    --mainFont: "Ancizar Sans", sans-serif;
+    --heading:"Chewy", system-ui
+}
+
+
+.rules{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--background-2);
+    color: white;
+    padding: 5px;
+}
+
+.rules a{
+    color: white;
+}

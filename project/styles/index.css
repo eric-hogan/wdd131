@@ -1,0 +1,83 @@
+:root{
+    --primary: #5cff97;
+    --accent: #0a210f;
+    --background-2: #14591d;
+    --background-1: #acd2ed;
+    --gentext:rgb(8, 17, 24);
+    --mainFont: "Ancizar Sans", sans-serif;
+    --heading:"Chewy", system-ui
+}
+
+
+
+.about_form_layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    text-align: center;
+    font-family: var(--mainFont);
+    
+}
+
+.about {
+    background-color: var(--background-2);
+    color: white;
+    padding: 1rem;
+
+}
+
+
+
+.about img{
+    height: 350px;
+    display: block;
+    position: relative;
+    left: 500px;
+    bottom: 30px;
+}
+
+
+h2{
+    text-decoration: underline;
+    font-family: var(--heading);
+    font-weight: 400;
+}
+
+
+
+.newsletter{
+    padding: 1rem;
+    border: solid black;
+}
+
+.newsletter legend{
+    text-align: left;
+}
+
+.newsletter fieldset{
+    border: solid 2px var(--accent);
+    margin-bottom: 5px;
+
+}
+
+.newsletter input[type="text"],
+input[type="email"]{
+    display: block;
+    height: 2rem;
+}
+
+.newsletter input[type="submit"]{
+    background-color: var(--accent);
+    height: auto;
+    width: 200px;
+    color: white;
+    font-family: var(--mainFont);
+    font-size: 150%;
+    font-weight: 500;
+    
+}
+
+.newsletter input[type="submit"]:hover{
+    background-color: var(--primary);
+    color: var(--gentext);
+    text-decoration: underline;
+}

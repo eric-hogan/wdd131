@@ -1,0 +1,50 @@
+:root{
+    --primary: #5cff97;
+    --accent: #0a210f;
+    --background-2: #14591d;
+    --background-1: #acd2ed;
+    --gentext:rgb(8, 17, 24);
+    --mainFont: "Ancizar Sans", sans-serif;
+    --heading:"Chewy", system-ui
+}
+
+
+p{
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.discInfo, .numbers, .description{
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: "Ancizar Sans", sans-serif;
+}
+
+.discInfo, .numbers p{
+    padding-top: 0;
+}
+
+.discInfo, .description{
+    background-color: var(--background-2);
+    color: white;
+    padding: 1rem;
+
+}
+
+.discInfo{
+    padding-bottom: 0;
+}
+
+.numbers{
+    border: var(--accent) solid 2px;
+    margin-top: 1rem;
+    color: white;
+    padding: 0 5px 5px 5px;
+    background-color: var(--background-2);
+}
+
+.numbers a{
+    text-decoration: underline;
+    color: white;
+}
